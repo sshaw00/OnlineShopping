@@ -1,37 +1,49 @@
-#title{
-    background-color: rgb(63, 63, 63);
-    font-family: "Monserrat-Bold";
-    font-size: xx-large ;
-    color: #fff;
-    text-align: left;
-    padding:1% ;
+#title {
+  background-color: rgb(63, 63, 63);
+  font-family: "Monserrat-Bold";
+  font-size: xx-large;
+  color: #fff;
+  text-align: left;
+  padding: 1%;
 }
 
-  
-  #title .container-fluid {
-    padding: 3% 15% 7%;
-  }
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
 
 .navbar {
-    padding: 0 0 1rem;
-  }
-  
-  .navbar-brand {
-    color: #fff;
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
-  }
-  
-  .nav-item {
-    padding: 0 18px;
-  }
-  
-  .nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat-Light";
-  }
+  padding: 0 0 1rem;
+}
 
-  .login{
-      padding-left: 15%;
-  }
+.navbar-brand {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+.login {
+  padding-left: 10%;
+}
+
+.colored-section {
+  background-color: rgb(63, 63, 63);
+  color: #fff;
+}
+
+/* .container-fluid {
+  padding: 7% 15%;
+} */
+
+.carousel-image {
+  width: 100%;
+}
