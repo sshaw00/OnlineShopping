@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Shop Easy</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
@@ -28,12 +28,13 @@
 </head>
 
 <body>
+  
     <section id="title">
 
         <!-- Navbar -->
 
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand">Shop Easy</a>
+            <a class="navbar-brand"><font color="#FFC133">Shop Easy</font></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,35 +44,26 @@
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="home.html"><font color="white">Home</font></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#"><font color="white">Contact</font></a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="truec">
+                            <font color="white">Categories</font>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
+                            <a class="dropdown-item" href="#">Pulses</a>
+                            <a class="dropdown-item" href="#">Drinks</a>
+                            <a class="dropdown-item" href="#">Edible Oils</a>
+                            <a class="dropdown-item" href="#">Packed Foods</a>
+                            <a class="dropdown-item" href="#">Personal Care</a>
+                            <a class="dropdown-item" href="#">Meat and Dairy Products</a>   
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                   
 
                 </ul>
 
@@ -87,13 +79,20 @@
 
     </section>
 
-    <section class="colored-section" id="products">
+   <div style="margin-top:100px;">
+          <section class="colored-section" id="products">
 
-        <div id="product-carousel" class="carousel slide" data-ride="false">
+        <div id="product-carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active container-fluid">
               <img class="carousel-image" src="img/IMG1.jpg" alt="Product">
             </div>
+            <div class="carousel-item container-fluid">
+                <img class="carousel-image" src="img/IMG2.jpg" alt="Product">
+              </div>
+            <div class="carousel-item container-fluid">
+                <img class="carousel-image" src="img/IMG.jpg" alt="Product">
+              </div>
             <div class="carousel-item container-fluid">
               <img class="carousel-image" src="img/IMG3.jpg" alt="Product">
             </div>
@@ -105,9 +104,9 @@
         <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-    
       </section>
-    
+      </div>
+
 </body>
 
 </html>

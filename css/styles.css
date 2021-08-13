@@ -1,4 +1,10 @@
+/* Navbar */
+
 #title {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
   background-color: rgb(63, 63, 63);
   font-family: "Monserrat-Bold";
   font-size: xx-large;
@@ -16,14 +22,13 @@
 }
 
 .navbar-brand {
-  color: #fff;
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .nav-item {
-  padding: 0 18px;
+  padding: 0px 18px;
 }
 
 .nav-link {
@@ -35,16 +40,28 @@
   padding-left: 10%;
 }
 
+/* Carousel section */
+
 .colored-section {
   background-color: rgb(63, 63, 63);
-  color: #fff;
+  width: 100%;
+  position: relative;
 }
 
-/* .container-fluid {
-  padding: 7% 15%;
-} */
+.container-fluid {
+  padding: 0% 0%;
+}
 
 .carousel-image {
   width: 100%;
-  margin: auto;
+}
+
+.nav-link:hover {
+  border: 1px solid #ffe600;
+  border-radius: 10px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: lightgrey;
 }
