@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/y-icon" href="titleicon.png" />
+    <title>User Login</title>
+    <style type="text/css">
+      body {
+        background-image: url("img/ecom.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: seagreen;
+      }
+      ::placeholder {
+        color: black;
+        text-decoration: all;
+        font-size: 14px;
+        padding-left: 10%;
+      }
+      input.logcred {
+        padding: 7px;
+        background: transparent;
+        width: 65%;
+        border: none;
+        border-bottom: 3px solid black;
+        border-radius: 30px;
+      }
+      input.logcred:hover {
+        width: 68%;
+      }
+      form {
+        border-top: 5px solid seagreen;
+        border-bottom: 5px solid seagreen;
+        border-radius: 6px;
+        background-color: white;
+        opacity: 87%;
+      }
+      input.login {
+        font-family: cursive;
+        padding: 12px 34px 12px 34px;
+        font-size: 20px;
+        border: 4px solid lightgreen;
+        border-radius: 12px;
+        background: transparent;
+        cursor: pointer;
+      }
+      input.login:hover {
+        background-color: lightgreen;
+        color: white;
+        border: 4px solid lightgreen;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <form
+      action="home.html"
+      method="post"
+      style="width: 27%; margin: 5% 0 0 6%; padding: 1% 2% 1% 2%"
+    >
+      <center>
+        <h1 style="font-family: cursive">Login</h1>
+        <hr style="border: 2px solid lightgreen; width: 85%" />
+        <h3 style="font-family: cursive" align="left" style="margin-top: 25px">
+          Username:
+        </h3>
+        <input
+          class="logcred"
+          type="text"
+          name="username"
+          placeholder="Enter Username"
+        /><br />
+        <h3 style="font-family: cursive" align="left">Password:</h3>
+        <input
+          class="logcred"
+          type="password"
+          name="password"
+          placeholder="Enter 6-digit password"
+        />
+        <br /><br />
+        <input class="login" type="submit" value="Sign in" />
+      </center>
+      <p style="font-family: times new roman; font-size: 19px">
+        <a href="" style="font-size: 13px; text-decoration: none"
+          >Forgot Password?</a
+        ><br />Don't have an EasyShop Account ?
+        <a href="Register.html" style="text-decoration: underline"
+          >Create one</a
+        >
+      </p>
+    </form>
+    <br /><br />
+    <footer
+      style="
+        color: white;
+        text-decoration: all;
+        font-size: 8px;
+        background-color: slategrey;
+        opacity: 80%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      "
+    >
+      <center>&copy; <i>DEVELOPED BY SKS & SAL </i></center>
+    </footer>
+  </body>
+</html>

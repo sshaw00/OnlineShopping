@@ -1,239 +1,422 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Shop Easy</title>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
 
     <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
 
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <script
+      src="https://kit.fontawesome.com/ba00818b9d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-  
+  <body>
     <section id="title">
+      <!-- Navbar -->
 
-        <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="home.html"
+          ><font color="#FFC133">Shop Easy</font></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand" href="home.html"><font color="#FFC133">Shop Easy</font></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html"
+                ><font color="white">Home</font></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer"
+                ><font color="white">Contact</font></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="truec"
+              >
+                <font color="white">Categories</font>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="pulses.html">Rice and Pulses</a>
+                <a class="dropdown-item" href="drinks.html">Drinks</a>
+                <a class="dropdown-item" href="edibleoils.html">Edible Oils</a>
+                <a class="dropdown-item" href="packedFoods.html"
+                  >Packed Foods</a
+                >
+                <a class="dropdown-item" href="personalCare.html"
+                  >Personal Care</a
+                >
+                <a class="dropdown-item" href="MeatandDairyProducts.html"
+                  >Meat and Dairy Products</a
+                >
+              </div>
+            </li>
+          </ul>
+
+          <form class="form-inline ml-auto">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">
+              Search
             </button>
+          </form>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="home.html"><font color="white">Home</font></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><font color="white">Contact</font></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="truec">
-                            <font color="white">Categories</font>
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="pulses.html">Pulses</a>
-                            <a class="dropdown-item" href="drinks.html">Drinks</a>
-                            <a class="dropdown-item" href="edibleoils.html">Edible Oils</a>
-                            <a class="dropdown-item" href="packedFoods.html">Packed Foods</a>
-                            <a class="dropdown-item" href="personalCare.html">Personal Care</a>
-                            <a class="dropdown-item" href="MeatandDairyProducts.html">Meat and Dairy Products</a>   
-                        </div>
-                    </li>
-                   
-
-                </ul>
-
-                <form class="form-inline ml-auto">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
-                </form>
-
-                <span class="login"> <button type="button" class="btn btn-outline-warning">Log-In</button></span>
-
-            </div>
-        </nav>
-
+          <span class="login">
+            <a class="btn btn-outline-warning" href="Login1.html" type="button"
+              >Log-In</a
+            >
+          </span>
+        </div>
+      </nav>
     </section>
 
-   <div style="margin-top:100px;">
-          <section class="colored-section" id="products">
-
+    <div style="margin-top: 100px">
+      <section class="colored-section" id="products">
         <div id="product-carousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active container-fluid">
-              <img class="carousel-image" src="img/IMG1.jpg" alt="Product">
+              <a href="pulses.html"
+                ><img class="carousel-image" src="img/img5.jpg"
+              /></a>
             </div>
             <div class="carousel-item container-fluid">
-                <img class="carousel-image" src="img/IMG2.jpg" alt="Product">
-              </div>
+              <a href="drinks.html"
+                ><img class="carousel-image" src="img/img6.jpg"
+              /></a>
+            </div>
             <div class="carousel-item container-fluid">
-                <img class="carousel-image" src="img/IMG.jpg" alt="Product">
-              </div>
+              <a href="MeatandDairyProducts.html"
+                ><img class="carousel-image" src="img/img7.jpeg"
+              /></a>
+            </div>
             <div class="carousel-item container-fluid">
-              <img class="carousel-image" src="img/IMG3.jpg" alt="Product">
+              <a href="packedFoods.html"
+                ><img class="carousel-image" src="img/img8.jpg"
+              /></a>
+            </div>
+            <div class="carousel-item container-fluid">
+              <a href="personalCare.html"
+                ><img class="carousel-image" src="img/img10.jpg"
+              /></a>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#product-carousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+          <a
+            class="carousel-control-prev"
+            href="#product-carousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
           </a>
-          <a class="carousel-control-next" href="#product-carousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
+          <a
+            class="carousel-control-next"
+            href="#product-carousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
           </a>
         </div>
       </section>
 
-      <section class="product-title">
-       <div class="header container-fluid">
-        <h1 class="sub-heading">Drinks</h1>
-      </div>  
-
-      <div class="row product-section">
-        
-
-        <div class="pricing-column col-lg-4 col-md-6">
-        <div class="card" style="width: 18rem"; >
-          <img src="img/drinks1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">An item</li>
-            
-          </ul>
-          <div class="card-body">
-            <a href="#" class="card-link">Card link</a>
-            <a href="#" class="card-link">Another link</a>
-          </div>
-        </div>
+      <section class="product-section">
+        <div class="header">
+          <h3 class="sub-heading">Drinks</h3>
+          <hr width="50px" />
         </div>
 
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card" style="width: 18rem"; >
-            <img src="img/drinks1.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">An item</li>
-            
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div>
-          </div>
-
-          <div class="pricing-column col-lg-4 col-md-6">
-            <div class="card" style="width: 18rem"; >
-              <img src="img/drinks1.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item">An item</li>
-              
-              </ul>
-              <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-              </div>
-            </div>
-            </div>
-
-
-
-            <div class="pricing-column col-lg-4 col-md-6">
-              <div class="card" style="width: 18rem"; >
-                <img src="img/drinks1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">An item</li>
-                
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" />
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
                 </ul>
-                <div class="card-body">
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
-                </div>
               </div>
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" alt="" />
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
+                </ul>
+              </div>
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" alt="" />
+
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
+                </ul>
+              </div>
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" alt="" />
+
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
+                </ul>
               </div>
 
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
+          </div>
+        </div>
 
-              <div class="pricing-column col-lg-4 col-md-6">
-                <div class="card" style="width: 18rem"; >
-                  <img src="img/drinks1.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                  
-                  </ul>
-                  <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                  </div>
-                </div>
-                </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" />
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
+                </ul>
+              </div>
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
 
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" alt="" />
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
+                </ul>
+              </div>
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
 
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" alt="" />
 
-                <div class="pricing-column col-lg-4 col-md-6">
-                  <div class="card" style="width: 18rem"; >
-                    <img src="img/drinks1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">An item</li>
-                    
-                    </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
-                  </div>
-                  </div>
-  
-  
-  
-      </div>
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
+                </ul>
+              </div>
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
 
+            <div class="col-lg-3 col-md-6">
+              <div class="product-top">
+                <img src="img/drinks1.jpg" height="300" width="250" alt="" />
+
+                <ul class="buttons">
+                  <a href="#"
+                    ><li class="buttons"><i class="fa fas fa-eye"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons"><i class="fa far fa-heart"></i></li
+                  ></a>
+                  <a href="#"
+                    ><li class="buttons">
+                      <i class="fa far fa-shopping-cart"></i></li
+                  ></a>
+                </ul>
+              </div>
+
+              <div class="product-bottom text-center">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+                <h3>ABC</h3>
+                <h5>Price</h5>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      </div>
 
-</body>
-
+      <section id="footer">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <p>© Copyright 2021 ShopEasy</p>
+      </section>
+    </div>
+  </body>
 </html>
